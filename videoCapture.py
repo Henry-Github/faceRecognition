@@ -4,7 +4,7 @@ import numpy as np
 
 video_capture = cv2.VideoCapture(0)
 
-xi = face_recognition.load_image_file('lib/pujing.jpg')
+xi = face_recognition.load_image_file('pictureslib/pujing.jpg')
 xi_encoding = face_recognition.face_encodings(xi)[0]
 
 known_face_encodings = [
